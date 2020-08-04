@@ -1,0 +1,26 @@
+* {
+  // 禁止文字选中效果
+  user-select: none;
+  // 禁止拖拽图片
+  //表单选中框取消
+  -webkit-user-drag: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-family: tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+// 添加字体
+@font-face {
+  font-family: ys;
+  src: url(../fonts/Monda-Regular-unhinted.ttf);
+}
