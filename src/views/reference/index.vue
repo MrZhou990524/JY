@@ -8,26 +8,32 @@
   </div>
 </template>
 <script>
-  export default {}
+export default {
+  data() {
+    return {};
+  }
+};
 </script>
 <style lang="scss" scopes>
-  .content {
-    height: 100%;
-    width: calc(100vw - 114px);
-    background: #f8f8f8;
+.content {
+  height: 100%;
+  width: calc(100vw - 114px);
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .tite {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    .tite {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 50px;
-      img {
-        width: 50px;
-        padding-right: 20px;
-      }
+    flex-direction: row;
+    margin-bottom: 50px;
+
+    img {
+      width: 50px;
+      padding-right: 20px;
     }
   }
+}
 </style>
